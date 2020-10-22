@@ -1,0 +1,67 @@
+.createTodo{
+    font-size: 11px;
+}
+
+.createTodo__form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.createTodo__formGroup{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 500px;
+}
+.createTodo__formGroup>h3{
+    font-size: 20px;
+}
+
+.createTodo__formGroup>label{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.createTodo__formGroup>input{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 30px;
+}
+
+.createTodo__radioGroup{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.createTodo__radioInput{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.createTodo__radioInput>label{
+    margin-left: 5px;
+}
+
+.createTodo__button{
+    display: flex !important;
+    margin: 0 auto !important;
+    background-color: lightsalmon !important;
+    width: 500px !important;
+    height: 30px !important;
+    text-transform: inherit !important;
+    color: #f9f9f9 !important;
+}
+
+.createTodo__button:hover{
+    cursor: pointer;
+    color: #000000 !important;
+    mask-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.5));
+}
