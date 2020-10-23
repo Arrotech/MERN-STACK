@@ -29,3 +29,7 @@ tr:nth-child(even) {
 .todoList__links:hover{
     text-decoration: underline;
 }
+
+.completed {
+    text-decoration: line-through;
+  }

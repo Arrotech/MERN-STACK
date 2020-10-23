@@ -73,7 +73,7 @@ export default class CreateTodo extends Component {
 
     render() {
         return (
-            <div className="createTodo">
+            <div className="editTodo">
                 <form className="createTodo__form" onSubmit={this.onSubmit}>
                     <div className="createTodo__formGroup">
                         <h3>Create Todo</h3>

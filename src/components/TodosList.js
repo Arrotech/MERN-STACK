@@ -5,12 +5,12 @@ import '../assets/css/TodosList.css'
 
 const Todo = props => (
     <tr>
-        <td>{props.todo.title}</td>
-        <td>{props.todo.description}</td>
-        <td>{props.todo.responsible}</td>
-        <td>{props.todo.priority}</td>
+        <td className={props.todo.completed ? 'completed' : ''}>{props.todo.title}</td>
+        <td className={props.todo.completed ? 'completed' : ''}>{props.todo.description}</td>
+        <td className={props.todo.completed ? 'completed' : ''}>{props.todo.responsible}</td>
+        <td className={props.todo.completed ? 'completed' : ''}>{props.todo.priority}</td>
         <td>
-            <Link className="todoList__links" to={"/edit/" + props.todo._id}>Edit</Link>
+            <Link to={"/edit/"+props.todo._id}>Edit</Link>
         </td>
     </tr>
 )
