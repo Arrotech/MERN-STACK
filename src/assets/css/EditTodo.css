@@ -1,0 +1,84 @@
+.editTodo{
+    font-size: 11px;
+}
+.editTodo>h3{
+    margin-top: 20px;
+}
+
+.editTodo__form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.editTodo__formGroup{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 500px;
+}
+.editTodo__formGroup>h3{
+    font-size: 20px;
+}
+
+.editTodo__formGroup>label{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.editTodo__formGroup>input{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 30px;
+}
+
+.editTodo__radioGroup{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 200px;
+}
+
+.editTodo__radioInput{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.editTodo__radioInput>label{
+    margin-left: 5px;
+}
+
+.editTodo__button{
+    display: flex !important;
+    margin: 0 auto !important;
+    background-color: lightsalmon !important;
+    width: 500px !important;
+    height: 30px !important;
+    text-transform: inherit !important;
+    color: #f9f9f9 !important;
+}
+
+.editTodo__button:hover{
+    cursor: pointer;
+    color: #000000 !important;
+    mask-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.5));
+}
+
+.editTodo__completedRadioInput{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.editTodo__completedRadioInput>label{
+    margin-left: 5px;
+}
